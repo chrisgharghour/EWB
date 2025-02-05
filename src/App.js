@@ -25,11 +25,11 @@ function App() {
         <Route path='/JoinUs' exact element={<JoinUs />}/>
         <Route path='/projects' exact element={<Projects />}/>
         <Route path='/contact' exact element={<Contact />} />
-        <Route path='/projects/nicaragua' exact element={<Nicaragua />} />
         <Route path='/projects/uganda' exact element={<Uganda />} />
         <Route path='/projects/ethiopia' exact element={<Ethiopia />} />
         <Route path='/projects/nepal' exact element={<Nepal />} />
         <Route path='/projects/colombia' exact element={<Colombia />} />
+        <Route path='/projects/nicaragua' exact element={<Nicaragua />} />
         <Route path='/projects/ethiopiaold' exact element={<EthiopiaOld />} />
         <Route path='/projects/guatemala' exact element={<Guatemala />} />
         <Route path='/projects/thailand' exact element={<Thailand />} />
