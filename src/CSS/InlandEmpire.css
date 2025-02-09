@@ -1,0 +1,394 @@
+/* .inlandEmpireTitleSection {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    background-image: url('../Media/ProjectsBG.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .inlandEmpireOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+    opacity: 0.8;
+  }
+  
+  .inlandEmpireTitle {
+    position: absolute;
+    margin-left: 50px;
+    top: 50%;
+    font-size: 60px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  .inlandEmpireTitle2 {
+    position: absolute;
+    margin-left: 50px;
+    top: 80%;
+    font-size: 30px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  .inlandEmpire .sectionTitles{
+    padding-left: 50px;
+  }
+  
+  .inlandEmpire .sectionParagraphs{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .inlandEmpire .BoardList {
+      width: 50px;
+      padding-left: 35px;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+  
+    .inlandEmpire .projectItem {
+      border-radius: 15px;
+      width: 220px;
+      height: 340px;
+      margin: 15px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      background-color: white;
+    }
+    
+    .inlandEmpire .projectItem div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+  
+    .inlandEmpire .projectItem h1 {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+    }
+    .inlandEmpire .projectItem p {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 5px;
+      margin-top: 0;
+  
+    }
+  
+    @media only screen and (max-width: 540px) {
+      .inlandEmpire .BoardList {
+        grid-template-columns: 1fr;
+      }
+  
+      .inlandEmpireTitle2 {
+        position: absolute;
+        margin-left: 50px;
+        top: 80%;
+        font-size: 25px;
+        left: 20px;
+        transform: translateY(-50%);
+        color: white;
+        font-weight: 50;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+  
+    }
+  
+    @media only screen and (max-width: 410px) {
+  
+      .inlandEmpireTitle {
+        margin-left: 10px;
+      }
+  
+      .inlandEmpireTitle2 {
+        margin-left: 10px;
+      }
+  
+      .inlandEmpire .BoardList {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+      .inlandEmpire .sectionTitles{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  
+      .inlandEmpire .sectionParagraphs{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  
+      .inlandEmpire .BoardList {
+        width: 50px;
+        padding-left: 0;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+      }
+  
+      .inlandEmpire .projectItem {
+        border-radius: 15px;
+        width: 165px;
+        height: 285px;
+        margin: 15px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+      }
+      
+      .inlandEmpire .projectItem div {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+  
+      .inlandEmpire .projectItem h1 {
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+      }
+      .inlandEmpire .projectItem p {
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 15px;
+      }
+  
+    }
+  
+    @media only screen and (max-width: 388px) {
+      .inlandEmpire .BoardList {
+        grid-template-columns: 1fr;
+      }
+    } */
+
+    .inlandEmpire{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+      }
+      
+      .inlandEmpireTitleSection {
+        position: relative;
+        width: 100%;
+        height: 190px;
+        background-image: url('../Media/ProjectsBG.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .inlandEmpireOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+        opacity: 0.8;
+      }
+      
+      .inlandEmpireTitle {
+        position: absolute;
+        margin-left: 50px;
+        top: 50%;
+        font-size: 60px;
+        left: 20px;
+        transform: translateY(-50%);
+        color: white;
+        font-weight: 50;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        
+      }
+      
+      .inlandEmpireTitle2 {
+        position: absolute;
+        margin-left: 50px;
+        top: 80%;
+        font-size: 30px;
+        left: 20px;
+        transform: translateY(-50%);
+        color: white;
+        font-weight: 50;
+        /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+      
+      .inlandEmpire .mainTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+      }
+      
+      .inlandEmpire .sectionTitles{
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      
+      
+      .inlandEmpire .sectionParagraphs{
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      
+      .inlandEmpire .BoardList {
+          height: auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          place-items: center;
+        }
+      
+        .inlandEmpire .projectItem {
+          border-radius: 15px;
+          width: 220px;
+          height: 340px;
+          margin: 15px;
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+          background-color: white;
+        }
+        
+        .inlandEmpire .projectItem div {
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          width: 100%;
+          height: 200px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+      
+      
+        .inlandEmpire .projectItem h1 {
+          margin-left: 20px;
+          text-decoration: none;
+          color: black;
+        }
+        .inlandEmpire .projectItem p {
+          margin-left: 20px;
+          text-decoration: none;
+          color: black;
+          margin-bottom: 5px;
+          margin-top: 0;
+      
+        }
+      
+        @media only screen and (max-width: 540px) {
+          .inlandEmpire .BoardList {
+            grid-template-columns: 1fr;
+          }
+      
+          .inlandEmpireTitle2 {
+            position: absolute;
+            margin-left: 50px;
+            top: 80%;
+            font-size: 25px;
+            left: 20px;
+            transform: translateY(-50%);
+            color: white;
+            font-weight: 50;
+            /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+          }
+      
+        }
+      
+        @media only screen and (max-width: 410px) {
+      
+          .inlandEmpireTitle {
+            margin-left: 10px;
+          }
+      
+          .inlandEmpireTitle2 {
+            margin-left: 10px;
+          }
+      
+          .inlandEmpire .BoardList {
+            grid-template-columns: 1fr 1fr;
+          }
+      
+          .inlandEmpire .sectionParagraphs{
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+      
+          .inlandEmpire .BoardList {
+            padding-left: 0;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            place-items: center;
+          }
+      
+          .inlandEmpire .projectItem {
+            border-radius: 15px;
+            width: 165px;
+            height: 285px;
+            margin: 15px;
+            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+            background-color: white;
+          }
+          
+          .inlandEmpire .projectItem div {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 100%;
+            height: 150px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+      
+          .inlandEmpire .projectItem h1 {
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+          }
+          .inlandEmpire .projectItem p {
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 5px;
+            margin-top: 0;
+            font-size: 15px;
+          }
+      
+        }
+      
+        @media only screen and (max-width: 388px) {
+          .inlandEmpire .BoardList {
+            grid-template-columns: 1fr;
+          }
+        }

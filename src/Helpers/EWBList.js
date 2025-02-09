@@ -3,6 +3,7 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Nepal from "../Media/NepalProject.jpg";
 import Colombia from "../Media/ColombiaProject.png";
+import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
 
 export const EWBList = [
   {
@@ -48,8 +49,8 @@ export const EWBList = [
   {
     id: "inland-empire",
     name: "Inland Empire",
-    image: null,
+    image: InlandEmpire,
     meetingTimes: "",
-    description: ""
+    description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
   }
 ];
